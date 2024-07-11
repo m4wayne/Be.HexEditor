@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationVersion>1.8.0</ApplicationVersion>
     <ApplicationRevision>0</ApplicationRevision>
@@ -43,7 +43,7 @@
     <None Include="HexBox.snk" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
-    <PackageReference Include="System.Resources.Extensions" Version="5.0.0" />
+    <PackageReference Include="System.Drawing.Common" />
+    <PackageReference Include="System.Resources.Extensions" />
   </ItemGroup>
 </Project>

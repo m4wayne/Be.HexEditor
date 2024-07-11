@@ -2,7 +2,7 @@
   <PropertyGroup>
     <ApplicationIcon>App.ico</ApplicationIcon>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <SupportUrl>https://github.com/themeldingwars/Be.HexEditor</SupportUrl>
     <ProductName>Be.HexEditor</ProductName>
@@ -279,7 +279,7 @@
     <None Include="Resources\FindNext24.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Be.Windows.Forms.HexBox\Be.Windows.Forms.HexBox.csproj" />
